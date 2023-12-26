@@ -1,12 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import { Route, Routes } from 'react-router-dom';
+import styles from './app.module.css';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="trackmategps" />
+      Marketing 3
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('trackmategps-e2e', () => {
+describe('marketing-e2e', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {
