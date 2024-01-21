@@ -1,0 +1,3 @@
+[build]
+  command = "npm i && nx build host"
+  publish = "dist/apps/host"
